@@ -559,5 +559,8 @@ body {
     padding: 25px 0;
     color: var(--gray-color);
 }
+.btn{
+    cursor: pointer;
+}
 
 
