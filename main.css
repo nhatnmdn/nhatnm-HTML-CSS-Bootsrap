@@ -35,7 +35,6 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-top: 40px;
-    border-top: 5px solid var(--green-color);
 }
 
 .header__left-logo {
@@ -77,12 +76,13 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 12px 15px;
+
 }
 
 .link-active{
     background-color: var(--green-color);
     border-radius: 10px;
-    padding: 12px 20px;
 }
 
 .header__right__menu-link:hover {
@@ -93,18 +93,16 @@ body {
 
 /*Slider*/
 .head{
-    background-color: #303030;
-    opacity: 0.8;
+    border-top: 5px solid var(--green-color);
+    background-color: rgba(0, 0, 0, 0.50);
 }
 .slide{
-    background-color: #303030;
-    opacity: 0.8;
+    background-color: rgba(0, 0, 0, 0.50);
+
 }
 .slider {
     padding-top: 40px;
     padding-bottom: 50px;
-    background-color: #303030;
-    opacity: 0.8;
 }
 
 .slider__item{
@@ -337,7 +335,7 @@ body {
 
 .footer{
     background-color: #303030;
-    opacity: 0.8;
+
 }
 
 .footer-top{
@@ -452,7 +450,7 @@ body {
 
 .footer__links-list li {
     border-bottom: 1px solid gray;
-    padding: 7px 0px;
+    padding: 10px 0px;
 }
 
 .footer__links-list li:first-child{
@@ -515,7 +513,7 @@ body {
     width: 100%;
     margin: 10px 0;
     border: none;
-
+    resize: none;
 }
 
 .footer__contact button {
